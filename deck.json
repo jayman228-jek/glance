@@ -1,627 +1,630 @@
-[
-  {
-    "term": "ABAC",
-    "fullname": "ATTRIBUTE-BASED ACCESS CONTROL",
-    "definition": "ACCESS CONTROL BASED ON USER/RESOURCE ATTRIBUTES (ROLE, DEPARTMENT, CLEARANCE LEVEL)"
-  },
-  {
-    "term": "API GATEWAY",
-    "fullname": "",
-    "definition": "ENTRY POINT THAT MANAGES, ROUTES, AND SECURES API TRAFFIC BETWEEN CLIENTS AND BACKEND SERVICES"
-  },
-  {
-    "term": "APT",
-    "fullname": "ADVANCED PERSISTENT THREAT",
-    "definition": "LONG-TERM TARGETED ATTACK BY SOPHISTICATED THREAT ACTORS"
-  },
-  {
-    "term": "ALE",
-    "fullname": "ANNUALIZED LOSS EXPECTANCY",
-    "definition": "SLE X ARO; EXPECTED YEARLY LOSS FROM RISK"
-  },
-  {
-    "term": "ARO",
-    "fullname": "ANNUAL RATE OF OCCURRENCE",
-    "definition": "HOW MANY TIMES PER YEAR A THREAT IS EXPECTED"
-  },
-  {
-    "term": "ATTESTATION",
-    "fullname": "",
-    "definition": "VERIFICATION THAT USER/DEVICE MEETS SECURITY STANDARDS BEFORE GRANTING ACCESS"
-  },
-  {
-    "term": "ATTACK SURFACE",
-    "fullname": "",
-    "definition": "SUM OF ALL POSSIBLE ENTRY POINTS AN ATTACKER COULD EXPLOIT"
-  },
-  {
-    "term": "BASELINE",
-    "fullname": "",
-    "definition": "MINIMUM SECURITY CONFIGURATION OR NORMAL OPERATIONAL STATE"
-  },
-  {
-    "term": "BIOMETRICS",
-    "fullname": "",
-    "definition": "AUTHENTICATION USING PHYSICAL CHARACTERISTICS (FINGERPRINT, FACIAL RECOGNITION, IRIS SCAN)"
-  },
-  {
-    "term": "BIA",
-    "fullname": "BUSINESS IMPACT ANALYSIS",
-    "definition": "IDENTIFIES CRITICAL BUSINESS FUNCTIONS AND IMPACT OF DISRUPTION"
-  },
-  {
-    "term": "BC/DR",
-    "fullname": "BUSINESS CONTINUITY/DISASTER RECOVERY",
-    "definition": "PLANS TO MAINTAIN OPERATIONS DURING AND AFTER DISASTERS"
-  },
-  {
-    "term": "CAPEC",
-    "fullname": "COMMON ATTACK PATTERN ENUMERATION AND CLASSIFICATION",
-    "definition": "MITRE FRAMEWORK CATEGORIZING ATTACK PATTERNS"
-  },
-  {
-    "term": "CASB",
-    "fullname": "CLOUD ACCESS SECURITY BROKER",
-    "definition": "SECURITY LAYER BETWEEN USERS AND CLOUD SERVICES"
-  },
-  {
-    "term": "CER",
-    "fullname": "CROSSOVER ERROR RATE",
-    "definition": "POINT WHERE FAR EQUALS FRR IN BIOMETRIC SYSTEMS; LOWER IS BETTER"
-  },
-  {
-    "term": "CI/CD",
-    "fullname": "CONTINUOUS INTEGRATION/CONTINUOUS DEPLOYMENT",
-    "definition": "AUTOMATED SOFTWARE BUILD, TEST, AND DEPLOYMENT"
-  },
-  {
-    "term": "CMDB",
-    "fullname": "CONFIGURATION MANAGEMENT DATABASE",
-    "definition": "DATABASE TRACKING ALL CONFIGURATION ITEMS AND RELATIONSHIPS"
-  },
-  {
-    "term": "COBIT",
-    "fullname": "",
-    "definition": "IT GOVERNANCE FRAMEWORK ALIGNING IT WITH BUSINESS OBJECTIVES"
-  },
-  {
-    "term": "CREDENTIAL DUMPING",
-    "fullname": "",
-    "definition": "EXTRACTING STORED USERNAMES AND PASSWORDS FROM SYSTEM"
-  },
-  {
-    "term": "CSRF",
-    "fullname": "CROSS-SITE REQUEST FORGERY",
-    "definition": "TRICK USER INTO EXECUTING UNWANTED ACTIONS ON TRUSTED SITE"
-  },
-  {
-    "term": "CVE",
-    "fullname": "COMMON VULNERABILITIES AND EXPOSURES",
-    "definition": "STANDARDIZED IDENTIFIER FOR KNOWN VULNERABILITIES"
-  },
-  {
-    "term": "CVSS",
-    "fullname": "COMMON VULNERABILITY SCORING SYSTEM",
-    "definition": "0-10 SCALE RATING VULNERABILITY SEVERITY"
-  },
-  {
-    "term": "DAC",
-    "fullname": "DISCRETIONARY ACCESS CONTROL",
-    "definition": "RESOURCE OWNER DETERMINES ACCESS PERMISSIONS"
-  },
-  {
-    "term": "DAST",
-    "fullname": "DYNAMIC APPLICATION SECURITY TESTING",
-    "definition": "TESTS RUNNING APPLICATION FOR VULNERABILITIES"
-  },
-  {
-    "term": "DEFENSE",
-    "fullname": "",
-    "definition": "IN-DEPTH - LAYERED SECURITY APPROACH WITH MULTIPLE CONTROLS"
-  },
-  {
-    "term": "DEPROVISIONING",
-    "fullname": "",
-    "definition": "REMOVING USER ACCESS AND CREDENTIALS WHEN NO LONGER NEEDED"
-  },
-  {
-    "term": "DLP",
-    "fullname": "DATA LOSS PREVENTION",
-    "definition": "TOOLS PREVENTING UNAUTHORIZED DATA TRANSMISSION"
-  },
-  {
-    "term": "DMZ",
-    "fullname": "DEMILITARIZED ZONE",
-    "definition": "NETWORK SEGMENT BETWEEN TRUSTED INTERNAL AND UNTRUSTED EXTERNAL NETWORKS"
-  },
-  {
-    "term": "DNSSEC",
-    "fullname": "DNS SECURITY EXTENSIONS",
-    "definition": "AUTHENTICATES DNS RESPONSES, PREVENTS POISONING"
-  },
-  {
-    "term": "EDR",
-    "fullname": "ENDPOINT DETECTION AND RESPONSE",
-    "definition": "REAL-TIME ENDPOINT MONITORING AND THREAT RESPONSE"
-  },
-  {
-    "term": "EMI",
-    "fullname": "ELECTROMAGNETIC INTERFERENCE",
-    "definition": "ELECTROMAGNETIC SIGNALS DISRUPTING DEVICE OPERATION"
-  },
-  {
-    "term": "EMP",
-    "fullname": "ELECTROMAGNETIC PULSE",
-    "definition": "BURST OF ELECTROMAGNETIC ENERGY DISABLING ELECTRONICS"
-  },
-  {
-    "term": "EOL",
-    "fullname": "END-OF-LIFE",
-    "definition": "VENDOR SLOWS/STOPS UPDATES BUT PRODUCT STILL FUNCTIONAL"
-  },
-  {
-    "term": "EOSL",
-    "fullname": "END-OF-SERVICE-LIFE",
-    "definition": "ALL VENDOR SUPPORT HALTED; SYSTEM HIGHLY VULNERABLE"
-  },
-  {
-    "term": "FAR",
-    "fullname": "FALSE ACCEPTANCE RATE",
-    "definition": "RATE BIOMETRIC SYSTEM INCORRECTLY ACCEPTS UNAUTHORIZED USER"
-  },
-  {
-    "term": "FEDERATION",
-    "fullname": "",
-    "definition": "SHARING IDENTITY INFORMATION ACROSS MULTIPLE TRUSTED DOMAINS"
-  },
-  {
-    "term": "FRR",
-    "fullname": "FALSE REJECTION RATE",
-    "definition": "RATE BIOMETRIC SYSTEM INCORRECTLY REJECTS AUTHORIZED USER"
-  },
-  {
-    "term": "FAIL SECURE/FAIL SAFE",
-    "fullname": "",
-    "definition": "SYSTEM DEFAULTS TO SECURE STATE UPON FAILURE"
-  },
-  {
-    "term": "GDPR",
-    "fullname": "GENERAL DATA PROTECTION REGULATION",
-    "definition": "EU DATA PRIVACY REGULATION"
-  },
-  {
-    "term": "GRC",
-    "fullname": "GOVERNANCE, RISK, AND COMPLIANCE",
-    "definition": "INTEGRATED APPROACH TO MANAGING GOVERNANCE, RISK, COMPLIANCE"
-  },
-  {
-    "term": "HARDENING",
-    "fullname": "",
-    "definition": "SECURING SYSTEM BY REDUCING ATTACK SURFACE AND APPLYING SECURITY CONFIGURATIONS"
-  },
-  {
-    "term": "HIDS",
-    "fullname": "HOST-BASED IDS",
-    "definition": "IDS MONITORING INDIVIDUAL HOST FOR SUSPICIOUS ACTIVITY"
-  },
-  {
-    "term": "HIPS",
-    "fullname": "HOST-BASED IPS",
-    "definition": "IPS ON INDIVIDUAL HOST THAT CAN BLOCK THREATS"
-  },
-  {
-    "term": "HONEYPOT",
-    "fullname": "",
-    "definition": "DECOY SYSTEM ATTRACTING ATTACKERS TO STUDY THEIR METHODS"
-  },
-  {
-    "term": "HSM",
-    "fullname": "HARDWARE SECURITY MODULE",
-    "definition": "DEDICATED CRYPTOGRAPHIC PROCESSOR FOR KEY MANAGEMENT"
-  },
-  {
-    "term": "HVAC",
-    "fullname": "",
-    "definition": "HEATING, VENTILATION, AIR CONDITIONING SYSTEMS (OT TARGET)"
-  },
-  {
-    "term": "IAAS",
-    "fullname": "INFRASTRUCTURE AS A SERVICE",
-    "definition": "CLOUD PROVIDER OFFERS VIRTUALIZED COMPUTING RESOURCES"
-  },
-  {
-    "term": "IAM",
-    "fullname": "IDENTITY AND ACCESS MANAGEMENT",
-    "definition": "FRAMEWORK FOR MANAGING DIGITAL IDENTITIES AND ACCESS"
-  },
-  {
-    "term": "IAST",
-    "fullname": "INTERACTIVE APPLICATION SECURITY TESTING",
-    "definition": "COMBINES SAST AND DAST APPROACHES"
-  },
-  {
-    "term": "ICS",
-    "fullname": "INDUSTRIAL CONTROL SYSTEM",
-    "definition": "SYSTEM CONTROLLING INDUSTRIAL PROCESSES"
-  },
-  {
-    "term": "IDS",
-    "fullname": "INTRUSION DETECTION SYSTEM",
-    "definition": "MONITORS NETWORK/HOST, ALERTS ON SUSPICIOUS ACTIVITY (PASSIVE)"
-  },
-  {
-    "term": "IOC",
-    "fullname": "INDICATOR OF COMPROMISE",
-    "definition": "EVIDENCE THAT SECURITY BREACH HAS OCCURRED"
-  },
-  {
-    "term": "IOT",
-    "fullname": "INTERNET OF THINGS",
-    "definition": "NETWORK OF CONNECTED PHYSICAL DEVICES"
-  },
-  {
-    "term": "IPS",
-    "fullname": "INTRUSION PREVENTION SYSTEM",
-    "definition": "MONITORS AND ACTIVELY BLOCKS THREATS (ACTIVE, INLINE)"
-  },
-  {
-    "term": "ISAC",
-    "fullname": "INFORMATION SHARING AND ANALYSIS CENTER",
-    "definition": "INDUSTRY-SPECIFIC THREAT INTELLIGENCE SHARING"
-  },
-  {
-    "term": "ITIL",
-    "fullname": "IT INFRASTRUCTURE LIBRARY",
-    "definition": "IT SERVICE MANAGEMENT FRAMEWORK"
-  },
-  {
-    "term": "KERBEROS",
-    "fullname": "",
-    "definition": "NETWORK AUTHENTICATION PROTOCOL USING TICKETS (USED IN ACTIVE DIRECTORY)"
-  },
-  {
-    "term": "LATERAL MOVEMENT",
-    "fullname": "",
-    "definition": "ATTACKER MOVING THROUGH NETWORK TO ACCESS MORE RESOURCES"
-  },
-  {
-    "term": "LEAST PRIVILEGE",
-    "fullname": "",
-    "definition": "USERS GRANTED MINIMUM PERMISSIONS NEEDED FOR THEIR ROLE"
-  },
-  {
-    "term": "LEGACY SYSTEM",
-    "fullname": "",
-    "definition": "OUTDATED SYSTEM APPROACHING OR PAST EOL/EOSL"
-  },
-  {
-    "term": "MAC",
-    "fullname": "MANDATORY ACCESS CONTROL",
-    "definition": "SYSTEM-ENFORCED ACCESS BASED ON SECURITY LABELS"
-  },
-  {
-    "term": "MDM",
-    "fullname": "MOBILE DEVICE MANAGEMENT",
-    "definition": "CENTRALIZED MANAGEMENT OF MOBILE DEVICES"
-  },
-  {
-    "term": "MEF",
-    "fullname": "MISSION ESSENTIAL FUNCTION",
-    "definition": "CRITICAL ACTIVITIES NECESSARY FOR BUSINESS MISSION"
-  },
-  {
-    "term": "MFA",
-    "fullname": "MULTIFACTOR AUTHENTICATION",
-    "definition": "AUTHENTICATION REQUIRING 2+ VERIFICATION FACTORS"
-  },
-  {
-    "term": "MICROSEGMENTATION",
-    "fullname": "",
-    "definition": "FINE-GRAINED NETWORK SEGMENTATION AT WORKLOAD LEVEL"
-  },
-  {
-    "term": "MITRE ATT&CK",
-    "fullname": "",
-    "definition": "FRAMEWORK CATEGORIZING ADVERSARY TACTICS, TECHNIQUES, PROCEDURES"
-  },
-  {
-    "term": "NAC",
-    "fullname": "NETWORK ACCESS CONTROL",
-    "definition": "ENSURES ONLY COMPLIANT DEVICES ACCESS NETWORK"
-  },
-  {
-    "term": "NGFW",
-    "fullname": "NEXT-GENERATION FIREWALL",
-    "definition": "FIREWALL WITH DEEP PACKET INSPECTION AND IPS INTEGRATION"
-  },
-  {
-    "term": "NIDS",
-    "fullname": "NETWORK-BASED IDS",
-    "definition": "IDS MONITORING NETWORK TRAFFIC"
-  },
-  {
-    "term": "NIPS",
-    "fullname": "NETWORK-BASED IPS",
-    "definition": "IPS MONITORING AND BLOCKING NETWORK THREATS"
-  },
-  {
-    "term": "NIST CSF",
-    "fullname": "CYBERSECURITY FRAMEWORK",
-    "definition": "FIVE FUNCTIONS: IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER"
-  },
-  {
-    "term": "OAUTH",
-    "fullname": "",
-    "definition": "AUTHORIZATION FRAMEWORK FOR TOKEN-BASED ACCESS TO USER DATA"
-  },
-  {
-    "term": "OCSP",
-    "fullname": "ONLINE CERTIFICATE STATUS PROTOCOL",
-    "definition": "REAL-TIME CERTIFICATE VALIDITY CHECKING"
-  },
-  {
-    "term": "OSINT",
-    "fullname": "OPEN-SOURCE INTELLIGENCE",
-    "definition": "INTELLIGENCE FROM PUBLICLY AVAILABLE SOURCES"
-  },
-  {
-    "term": "OT",
-    "fullname": "OPERATIONAL TECHNOLOGY",
-    "definition": "HARDWARE/SOFTWARE MONITORING AND CONTROLLING PHYSICAL PROCESSES"
-  },
-  {
-    "term": "OWASP",
-    "fullname": "",
-    "definition": "OPEN WEB APPLICATION SECURITY PROJECT; SECURITY STANDARDS AND TOOLS"
-  },
-  {
-    "term": "PAAS",
-    "fullname": "PLATFORM AS A SERVICE",
-    "definition": "CLOUD PROVIDER OFFERS DEVELOPMENT PLATFORM"
-  },
-  {
-    "term": "PAM",
-    "fullname": "PRIVILEGED ACCESS MANAGEMENT",
-    "definition": "MANAGING ELEVATED ACCESS RIGHTS"
-  },
-  {
-    "term": "PCI DSS",
-    "fullname": "",
-    "definition": "PAYMENT CARD INDUSTRY DATA SECURITY STANDARD FOR PROTECTING CARD DATA"
-  },
-  {
-    "term": "PDP",
-    "fullname": "POLICY DECISION POINT",
-    "definition": "DETERMINES IF ACCESS SHOULD BE GRANTED"
-  },
-  {
-    "term": "PEP",
-    "fullname": "POLICY ENFORCEMENT POINT",
-    "definition": "ENFORCES ACCESS CONTROL DECISIONS"
-  },
-  {
-    "term": "PIM",
-    "fullname": "PRIVILEGED IDENTITY MANAGEMENT",
-    "definition": "TEMPORARY ELEVATED PERMISSIONS AS NEEDED"
-  },
-  {
-    "term": "PKI",
-    "fullname": "PUBLIC KEY INFRASTRUCTURE",
-    "definition": "FRAMEWORK FOR MANAGING DIGITAL CERTIFICATES AND ENCRYPTION KEYS"
-  },
-  {
-    "term": "PROVISIONING",
-    "fullname": "",
-    "definition": "CREATING USER ACCOUNTS AND ASSIGNING ACCESS RIGHTS"
-  },
-  {
-    "term": "QUALITATIVE RISK ANALYSIS",
-    "fullname": "",
-    "definition": "RISK ASSESSMENT USING DESCRIPTIVE RATINGS (HIGH/MEDIUM/LOW)"
-  },
-  {
-    "term": "QUANTITATIVE RISK ANALYSIS",
-    "fullname": "",
-    "definition": "RISK ASSESSMENT USING NUMERICAL VALUES AND CALCULATIONS"
-  },
-  {
-    "term": "RACI MATRIX",
-    "fullname": "",
-    "definition": "DEFINES ROLES: RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED"
-  },
-  {
-    "term": "RASP",
-    "fullname": "RUNTIME APPLICATION SELF-PROTECTION",
-    "definition": "SECURITY MONITORING APPLICATIONS DURING EXECUTION"
-  },
-  {
-    "term": "RBAC",
-    "fullname": "ROLE-BASED ACCESS CONTROL",
-    "definition": "ACCESS BASED ON USER'S JOB ROLE"
-  },
-  {
-    "term": "RESIDUAL RISK",
-    "fullname": "",
-    "definition": "RISK REMAINING AFTER CONTROLS APPLIED"
-  },
-  {
-    "term": "RISK APPETITE",
-    "fullname": "",
-    "definition": "AMOUNT OF RISK ORGANIZATION WILLING TO ACCEPT"
-  },
-  {
-    "term": "RISK TOLERANCE",
-    "fullname": "",
-    "definition": "ACCEPTABLE DEVIATION FROM RISK APPETITE"
-  },
-  {
-    "term": "ROOT CAUSE ANALYSIS",
-    "fullname": "",
-    "definition": "IDENTIFYING UNDERLYING CAUSE OF INCIDENT TO PREVENT RECURRENCE"
-  },
-  {
-    "term": "SAAS",
-    "fullname": "SOFTWARE AS A SERVICE",
-    "definition": "CLOUD PROVIDER OFFERS READY-TO-USE APPLICATIONS"
-  },
-  {
-    "term": "SAML",
-    "fullname": "SECURITY ASSERTIONS MARKUP LANGUAGE",
-    "definition": "XML-BASED STANDARD FOR SSO AUTHENTICATION"
-  },
-  {
-    "term": "SAN",
-    "fullname": "SUBJECT ALTERNATIVE NAME",
-    "definition": "CERTIFICATE SECURING MULTIPLE DOMAINS"
-  },
-  {
-    "term": "SASE",
-    "fullname": "SECURE ACCESS SERVICE EDGE",
-    "definition": "CLOUD-BASED NETWORK SECURITY COMBINING SD-WAN AND SECURITY"
-  },
-  {
-    "term": "SAST",
-    "fullname": "STATIC APPLICATION SECURITY TESTING",
-    "definition": "ANALYZES SOURCE CODE WITHOUT EXECUTION"
-  },
-  {
-    "term": "SBOM",
-    "fullname": "SOFTWARE BILL OF MATERIALS",
-    "definition": "INVENTORY OF SOFTWARE COMPONENTS"
-  },
-  {
-    "term": "SCA",
-    "fullname": "SOFTWARE COMPOSITION ANALYSIS",
-    "definition": "ANALYZES THIRD-PARTY COMPONENTS FOR VULNERABILITIES"
-  },
-  {
-    "term": "SCADA",
-    "fullname": "SUPERVISORY CONTROL AND DATA ACQUISITION",
-    "definition": "INDUSTRIAL CONTROL SYSTEM FOR INFRASTRUCTURE"
-  },
-  {
-    "term": "SECRETS MANAGEMENT",
-    "fullname": "",
-    "definition": "SECURE STORAGE AND HANDLING OF SENSITIVE CREDENTIALS"
-  },
-  {
-    "term": "SEGMENTATION",
-    "fullname": "",
-    "definition": "DIVIDING NETWORK INTO SMALLER, ISOLATED SECTIONS"
-  },
-  {
-    "term": "SED",
-    "fullname": "SELF-ENCRYPTING DRIVE",
-    "definition": "HARD DRIVE WITH BUILT-IN HARDWARE ENCRYPTION"
-  },
-  {
-    "term": "SELINUX",
-    "fullname": "",
-    "definition": "SECURITY-ENHANCED LINUX WITH MANDATORY ACCESS CONTROL"
-  },
-  {
-    "term": "SIEM",
-    "fullname": "SECURITY INFORMATION AND EVENT MANAGEMENT",
-    "definition": "CENTRALIZED LOG MANAGEMENT AND ANALYSIS PLATFORM"
-  },
-  {
-    "term": "SLE",
-    "fullname": "SINGLE LOSS EXPECTANCY",
-    "definition": "EXPECTED LOSS FROM SINGLE OCCURRENCE OF RISK"
-  },
-  {
-    "term": "SOAR",
-    "fullname": "SECURITY ORCHESTRATION, AUTOMATION, AND RESPONSE",
-    "definition": "PLATFORM AUTOMATING SECURITY OPERATIONS"
-  },
-  {
-    "term": "SOC 2",
-    "fullname": "",
-    "definition": "AUDIT FRAMEWORK FOR SERVICE ORGANIZATIONS' SECURITY CONTROLS"
-  },
-  {
-    "term": "SPF",
-    "fullname": "SENDER POLICY FRAMEWORK",
-    "definition": "EMAIL AUTHENTICATION PREVENTING SENDER ADDRESS FORGERY"
-  },
-  {
-    "term": "SSRF",
-    "fullname": "SERVER-SIDE REQUEST FORGERY",
-    "definition": "ATTACKER MAKES SERVER SEND UNINTENDED REQUESTS"
-  },
-  {
-    "term": "SSO",
-    "fullname": "SINGLE SIGN-ON",
-    "definition": "AUTHENTICATE ONCE TO ACCESS MULTIPLE SERVICES"
-  },
-  {
-    "term": "STIX",
-    "fullname": "STRUCTURED THREAT INFORMATION EXCHANGE",
-    "definition": "STANDARDIZED THREAT INTELLIGENCE FORMAT"
-  },
-  {
-    "term": "STRIDE",
-    "fullname": "",
-    "definition": "THREAT MODEL: SPOOFING, TAMPERING, REPUDIATION, INFORMATION DISCLOSURE, DOS, ELEVATION OF PRIVILEGE"
-  },
-  {
-    "term": "TAXII",
-    "fullname": "TRUSTED AUTOMATED EXCHANGE OF INDICATOR INFORMATION",
-    "definition": "PROTOCOL FOR SHARING STIX THREAT DATA"
-  },
-  {
-    "term": "TIP",
-    "fullname": "THREAT INTELLIGENCE PLATFORM",
-    "definition": "SYSTEM AGGREGATING AND CORRELATING THREAT INTELLIGENCE"
-  },
-  {
-    "term": "TOCTOU",
-    "fullname": "TIME OF CHECK, TIME OF USE",
-    "definition": "RACE CONDITION WHERE SYSTEM STATE CHANGES BETWEEN CHECK AND USE"
-  },
-  {
-    "term": "TPM",
-    "fullname": "TRUSTED PLATFORM MODULE",
-    "definition": "HARDWARE CHIP STORING CRYPTOGRAPHIC KEYS, ENSURING SECURE BOOT"
-  },
-  {
-    "term": "TTP",
-    "fullname": "TACTICS, TECHNIQUES, PROCEDURES",
-    "definition": "HOW THREAT ACTORS OPERATE"
-  },
-  {
-    "term": "VTPM",
-    "fullname": "VIRTUAL TPM",
-    "definition": "SOFTWARE-BASED TPM FOR VIRTUAL MACHINES"
-  },
-  {
-    "term": "VULNERABILITY",
-    "fullname": "",
-    "definition": "WEAKNESS THAT COULD BE EXPLOITED"
-  },
-  {
-    "term": "WAF",
-    "fullname": "WEB APPLICATION FIREWALL",
-    "definition": "FIREWALL PROTECTING WEB APPLICATIONS FROM ATTACKS"
-  },
-  {
-    "term": "XSS",
-    "fullname": "CROSS-SITE SCRIPTING",
-    "definition": "INJECTING MALICIOUS SCRIPTS INTO WEB PAGES VIEWED BY OTHERS"
-  },
-  {
-    "term": "YARA",
-    "fullname": "YET ANOTHER RECURSIVE ACRONYM",
-    "definition": "PATTERN MATCHING TOOL FOR MALWARE IDENTIFICATION"
-  },
-  {
-    "term": "ZERO TRUST",
-    "fullname": "",
-    "definition": "SECURITY MODEL: \"NEVER TRUST, ALWAYS VERIFY\" - CONTINUOUS VERIFICATION REQUIRED"
-  },
-  {
-    "term": "ZONE TRANSFER",
-    "fullname": "",
-    "definition": "COPYING DNS ZONE FILE; IF UNSECURED, REVEALS ALL DNS RECORDS"
-  }
-]
+{
+  "title": "COMPTIA SecurityX CAS-005",
+  "terms": [
+    {
+      "term": "ABAC",
+      "fullname": "ATTRIBUTE-BASED ACCESS CONTROL",
+      "definition": "ACCESS CONTROL BASED ON USER/RESOURCE ATTRIBUTES (ROLE, DEPARTMENT, CLEARANCE LEVEL)"
+    },
+    {
+      "term": "API GATEWAY",
+      "fullname": "",
+      "definition": "ENTRY POINT THAT MANAGES, ROUTES, AND SECURES API TRAFFIC BETWEEN CLIENTS AND BACKEND SERVICES"
+    },
+    {
+      "term": "APT",
+      "fullname": "ADVANCED PERSISTENT THREAT",
+      "definition": "LONG-TERM TARGETED ATTACK BY SOPHISTICATED THREAT ACTORS"
+    },
+    {
+      "term": "ALE",
+      "fullname": "ANNUALIZED LOSS EXPECTANCY",
+      "definition": "SLE X ARO; EXPECTED YEARLY LOSS FROM RISK"
+    },
+    {
+      "term": "ARO",
+      "fullname": "ANNUAL RATE OF OCCURRENCE",
+      "definition": "HOW MANY TIMES PER YEAR A THREAT IS EXPECTED"
+    },
+    {
+      "term": "ATTESTATION",
+      "fullname": "",
+      "definition": "VERIFICATION THAT USER/DEVICE MEETS SECURITY STANDARDS BEFORE GRANTING ACCESS"
+    },
+    {
+      "term": "ATTACK SURFACE",
+      "fullname": "",
+      "definition": "SUM OF ALL POSSIBLE ENTRY POINTS AN ATTACKER COULD EXPLOIT"
+    },
+    {
+      "term": "BASELINE",
+      "fullname": "",
+      "definition": "MINIMUM SECURITY CONFIGURATION OR NORMAL OPERATIONAL STATE"
+    },
+    {
+      "term": "BIOMETRICS",
+      "fullname": "",
+      "definition": "AUTHENTICATION USING PHYSICAL CHARACTERISTICS (FINGERPRINT, FACIAL RECOGNITION, IRIS SCAN)"
+    },
+    {
+      "term": "BIA",
+      "fullname": "BUSINESS IMPACT ANALYSIS",
+      "definition": "IDENTIFIES CRITICAL BUSINESS FUNCTIONS AND IMPACT OF DISRUPTION"
+    },
+    {
+      "term": "BC/DR",
+      "fullname": "BUSINESS CONTINUITY/DISASTER RECOVERY",
+      "definition": "PLANS TO MAINTAIN OPERATIONS DURING AND AFTER DISASTERS"
+    },
+    {
+      "term": "CAPEC",
+      "fullname": "COMMON ATTACK PATTERN ENUMERATION AND CLASSIFICATION",
+      "definition": "MITRE FRAMEWORK CATEGORIZING ATTACK PATTERNS"
+    },
+    {
+      "term": "CASB",
+      "fullname": "CLOUD ACCESS SECURITY BROKER",
+      "definition": "SECURITY LAYER BETWEEN USERS AND CLOUD SERVICES"
+    },
+    {
+      "term": "CER",
+      "fullname": "CROSSOVER ERROR RATE",
+      "definition": "POINT WHERE FAR EQUALS FRR IN BIOMETRIC SYSTEMS; LOWER IS BETTER"
+    },
+    {
+      "term": "CI/CD",
+      "fullname": "CONTINUOUS INTEGRATION/CONTINUOUS DEPLOYMENT",
+      "definition": "AUTOMATED SOFTWARE BUILD, TEST, AND DEPLOYMENT"
+    },
+    {
+      "term": "CMDB",
+      "fullname": "CONFIGURATION MANAGEMENT DATABASE",
+      "definition": "DATABASE TRACKING ALL CONFIGURATION ITEMS AND RELATIONSHIPS"
+    },
+    {
+      "term": "COBIT",
+      "fullname": "",
+      "definition": "IT GOVERNANCE FRAMEWORK ALIGNING IT WITH BUSINESS OBJECTIVES"
+    },
+    {
+      "term": "CREDENTIAL DUMPING",
+      "fullname": "",
+      "definition": "EXTRACTING STORED USERNAMES AND PASSWORDS FROM SYSTEM"
+    },
+    {
+      "term": "CSRF",
+      "fullname": "CROSS-SITE REQUEST FORGERY",
+      "definition": "TRICK USER INTO EXECUTING UNWANTED ACTIONS ON TRUSTED SITE"
+    },
+    {
+      "term": "CVE",
+      "fullname": "COMMON VULNERABILITIES AND EXPOSURES",
+      "definition": "STANDARDIZED IDENTIFIER FOR KNOWN VULNERABILITIES"
+    },
+    {
+      "term": "CVSS",
+      "fullname": "COMMON VULNERABILITY SCORING SYSTEM",
+      "definition": "0-10 SCALE RATING VULNERABILITY SEVERITY"
+    },
+    {
+      "term": "DAC",
+      "fullname": "DISCRETIONARY ACCESS CONTROL",
+      "definition": "RESOURCE OWNER DETERMINES ACCESS PERMISSIONS"
+    },
+    {
+      "term": "DAST",
+      "fullname": "DYNAMIC APPLICATION SECURITY TESTING",
+      "definition": "TESTS RUNNING APPLICATION FOR VULNERABILITIES"
+    },
+    {
+      "term": "DEFENSE",
+      "fullname": "",
+      "definition": "IN-DEPTH - LAYERED SECURITY APPROACH WITH MULTIPLE CONTROLS"
+    },
+    {
+      "term": "DEPROVISIONING",
+      "fullname": "",
+      "definition": "REMOVING USER ACCESS AND CREDENTIALS WHEN NO LONGER NEEDED"
+    },
+    {
+      "term": "DLP",
+      "fullname": "DATA LOSS PREVENTION",
+      "definition": "TOOLS PREVENTING UNAUTHORIZED DATA TRANSMISSION"
+    },
+    {
+      "term": "DMZ",
+      "fullname": "DEMILITARIZED ZONE",
+      "definition": "NETWORK SEGMENT BETWEEN TRUSTED INTERNAL AND UNTRUSTED EXTERNAL NETWORKS"
+    },
+    {
+      "term": "DNSSEC",
+      "fullname": "DNS SECURITY EXTENSIONS",
+      "definition": "AUTHENTICATES DNS RESPONSES, PREVENTS POISONING"
+    },
+    {
+      "term": "EDR",
+      "fullname": "ENDPOINT DETECTION AND RESPONSE",
+      "definition": "REAL-TIME ENDPOINT MONITORING AND THREAT RESPONSE"
+    },
+    {
+      "term": "EMI",
+      "fullname": "ELECTROMAGNETIC INTERFERENCE",
+      "definition": "ELECTROMAGNETIC SIGNALS DISRUPTING DEVICE OPERATION"
+    },
+    {
+      "term": "EMP",
+      "fullname": "ELECTROMAGNETIC PULSE",
+      "definition": "BURST OF ELECTROMAGNETIC ENERGY DISABLING ELECTRONICS"
+    },
+    {
+      "term": "EOL",
+      "fullname": "END-OF-LIFE",
+      "definition": "VENDOR SLOWS/STOPS UPDATES BUT PRODUCT STILL FUNCTIONAL"
+    },
+    {
+      "term": "EOSL",
+      "fullname": "END-OF-SERVICE-LIFE",
+      "definition": "ALL VENDOR SUPPORT HALTED; SYSTEM HIGHLY VULNERABLE"
+    },
+    {
+      "term": "FAR",
+      "fullname": "FALSE ACCEPTANCE RATE",
+      "definition": "RATE BIOMETRIC SYSTEM INCORRECTLY ACCEPTS UNAUTHORIZED USER"
+    },
+    {
+      "term": "FEDERATION",
+      "fullname": "",
+      "definition": "SHARING IDENTITY INFORMATION ACROSS MULTIPLE TRUSTED DOMAINS"
+    },
+    {
+      "term": "FRR",
+      "fullname": "FALSE REJECTION RATE",
+      "definition": "RATE BIOMETRIC SYSTEM INCORRECTLY REJECTS AUTHORIZED USER"
+    },
+    {
+      "term": "FAIL SECURE/FAIL SAFE",
+      "fullname": "",
+      "definition": "SYSTEM DEFAULTS TO SECURE STATE UPON FAILURE"
+    },
+    {
+      "term": "GDPR",
+      "fullname": "GENERAL DATA PROTECTION REGULATION",
+      "definition": "EU DATA PRIVACY REGULATION"
+    },
+    {
+      "term": "GRC",
+      "fullname": "GOVERNANCE, RISK, AND COMPLIANCE",
+      "definition": "INTEGRATED APPROACH TO MANAGING GOVERNANCE, RISK, COMPLIANCE"
+    },
+    {
+      "term": "HARDENING",
+      "fullname": "",
+      "definition": "SECURING SYSTEM BY REDUCING ATTACK SURFACE AND APPLYING SECURITY CONFIGURATIONS"
+    },
+    {
+      "term": "HIDS",
+      "fullname": "HOST-BASED IDS",
+      "definition": "IDS MONITORING INDIVIDUAL HOST FOR SUSPICIOUS ACTIVITY"
+    },
+    {
+      "term": "HIPS",
+      "fullname": "HOST-BASED IPS",
+      "definition": "IPS ON INDIVIDUAL HOST THAT CAN BLOCK THREATS"
+    },
+    {
+      "term": "HONEYPOT",
+      "fullname": "",
+      "definition": "DECOY SYSTEM ATTRACTING ATTACKERS TO STUDY THEIR METHODS"
+    },
+    {
+      "term": "HSM",
+      "fullname": "HARDWARE SECURITY MODULE",
+      "definition": "DEDICATED CRYPTOGRAPHIC PROCESSOR FOR KEY MANAGEMENT"
+    },
+    {
+      "term": "HVAC",
+      "fullname": "",
+      "definition": "HEATING, VENTILATION, AIR CONDITIONING SYSTEMS (OT TARGET)"
+    },
+    {
+      "term": "IAAS",
+      "fullname": "INFRASTRUCTURE AS A SERVICE",
+      "definition": "CLOUD PROVIDER OFFERS VIRTUALIZED COMPUTING RESOURCES"
+    },
+    {
+      "term": "IAM",
+      "fullname": "IDENTITY AND ACCESS MANAGEMENT",
+      "definition": "FRAMEWORK FOR MANAGING DIGITAL IDENTITIES AND ACCESS"
+    },
+    {
+      "term": "IAST",
+      "fullname": "INTERACTIVE APPLICATION SECURITY TESTING",
+      "definition": "COMBINES SAST AND DAST APPROACHES"
+    },
+    {
+      "term": "ICS",
+      "fullname": "INDUSTRIAL CONTROL SYSTEM",
+      "definition": "SYSTEM CONTROLLING INDUSTRIAL PROCESSES"
+    },
+    {
+      "term": "IDS",
+      "fullname": "INTRUSION DETECTION SYSTEM",
+      "definition": "MONITORS NETWORK/HOST, ALERTS ON SUSPICIOUS ACTIVITY (PASSIVE)"
+    },
+    {
+      "term": "IOC",
+      "fullname": "INDICATOR OF COMPROMISE",
+      "definition": "EVIDENCE THAT SECURITY BREACH HAS OCCURRED"
+    },
+    {
+      "term": "IOT",
+      "fullname": "INTERNET OF THINGS",
+      "definition": "NETWORK OF CONNECTED PHYSICAL DEVICES"
+    },
+    {
+      "term": "IPS",
+      "fullname": "INTRUSION PREVENTION SYSTEM",
+      "definition": "MONITORS AND ACTIVELY BLOCKS THREATS (ACTIVE, INLINE)"
+    },
+    {
+      "term": "ISAC",
+      "fullname": "INFORMATION SHARING AND ANALYSIS CENTER",
+      "definition": "INDUSTRY-SPECIFIC THREAT INTELLIGENCE SHARING"
+    },
+    {
+      "term": "ITIL",
+      "fullname": "IT INFRASTRUCTURE LIBRARY",
+      "definition": "IT SERVICE MANAGEMENT FRAMEWORK"
+    },
+    {
+      "term": "KERBEROS",
+      "fullname": "",
+      "definition": "NETWORK AUTHENTICATION PROTOCOL USING TICKETS (USED IN ACTIVE DIRECTORY)"
+    },
+    {
+      "term": "LATERAL MOVEMENT",
+      "fullname": "",
+      "definition": "ATTACKER MOVING THROUGH NETWORK TO ACCESS MORE RESOURCES"
+    },
+    {
+      "term": "LEAST PRIVILEGE",
+      "fullname": "",
+      "definition": "USERS GRANTED MINIMUM PERMISSIONS NEEDED FOR THEIR ROLE"
+    },
+    {
+      "term": "LEGACY SYSTEM",
+      "fullname": "",
+      "definition": "OUTDATED SYSTEM APPROACHING OR PAST EOL/EOSL"
+    },
+    {
+      "term": "MAC",
+      "fullname": "MANDATORY ACCESS CONTROL",
+      "definition": "SYSTEM-ENFORCED ACCESS BASED ON SECURITY LABELS"
+    },
+    {
+      "term": "MDM",
+      "fullname": "MOBILE DEVICE MANAGEMENT",
+      "definition": "CENTRALIZED MANAGEMENT OF MOBILE DEVICES"
+    },
+    {
+      "term": "MEF",
+      "fullname": "MISSION ESSENTIAL FUNCTION",
+      "definition": "CRITICAL ACTIVITIES NECESSARY FOR BUSINESS MISSION"
+    },
+    {
+      "term": "MFA",
+      "fullname": "MULTIFACTOR AUTHENTICATION",
+      "definition": "AUTHENTICATION REQUIRING 2+ VERIFICATION FACTORS"
+    },
+    {
+      "term": "MICROSEGMENTATION",
+      "fullname": "",
+      "definition": "FINE-GRAINED NETWORK SEGMENTATION AT WORKLOAD LEVEL"
+    },
+    {
+      "term": "MITRE ATT&CK",
+      "fullname": "",
+      "definition": "FRAMEWORK CATEGORIZING ADVERSARY TACTICS, TECHNIQUES, PROCEDURES"
+    },
+    {
+      "term": "NAC",
+      "fullname": "NETWORK ACCESS CONTROL",
+      "definition": "ENSURES ONLY COMPLIANT DEVICES ACCESS NETWORK"
+    },
+    {
+      "term": "NGFW",
+      "fullname": "NEXT-GENERATION FIREWALL",
+      "definition": "FIREWALL WITH DEEP PACKET INSPECTION AND IPS INTEGRATION"
+    },
+    {
+      "term": "NIDS",
+      "fullname": "NETWORK-BASED IDS",
+      "definition": "IDS MONITORING NETWORK TRAFFIC"
+    },
+    {
+      "term": "NIPS",
+      "fullname": "NETWORK-BASED IPS",
+      "definition": "IPS MONITORING AND BLOCKING NETWORK THREATS"
+    },
+    {
+      "term": "NIST CSF",
+      "fullname": "CYBERSECURITY FRAMEWORK",
+      "definition": "FIVE FUNCTIONS: IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER"
+    },
+    {
+      "term": "OAUTH",
+      "fullname": "",
+      "definition": "AUTHORIZATION FRAMEWORK FOR TOKEN-BASED ACCESS TO USER DATA"
+    },
+    {
+      "term": "OCSP",
+      "fullname": "ONLINE CERTIFICATE STATUS PROTOCOL",
+      "definition": "REAL-TIME CERTIFICATE VALIDITY CHECKING"
+    },
+    {
+      "term": "OSINT",
+      "fullname": "OPEN-SOURCE INTELLIGENCE",
+      "definition": "INTELLIGENCE FROM PUBLICLY AVAILABLE SOURCES"
+    },
+    {
+      "term": "OT",
+      "fullname": "OPERATIONAL TECHNOLOGY",
+      "definition": "HARDWARE/SOFTWARE MONITORING AND CONTROLLING PHYSICAL PROCESSES"
+    },
+    {
+      "term": "OWASP",
+      "fullname": "",
+      "definition": "OPEN WEB APPLICATION SECURITY PROJECT; SECURITY STANDARDS AND TOOLS"
+    },
+    {
+      "term": "PAAS",
+      "fullname": "PLATFORM AS A SERVICE",
+      "definition": "CLOUD PROVIDER OFFERS DEVELOPMENT PLATFORM"
+    },
+    {
+      "term": "PAM",
+      "fullname": "PRIVILEGED ACCESS MANAGEMENT",
+      "definition": "MANAGING ELEVATED ACCESS RIGHTS"
+    },
+    {
+      "term": "PCI DSS",
+      "fullname": "",
+      "definition": "PAYMENT CARD INDUSTRY DATA SECURITY STANDARD FOR PROTECTING CARD DATA"
+    },
+    {
+      "term": "PDP",
+      "fullname": "POLICY DECISION POINT",
+      "definition": "DETERMINES IF ACCESS SHOULD BE GRANTED"
+    },
+    {
+      "term": "PEP",
+      "fullname": "POLICY ENFORCEMENT POINT",
+      "definition": "ENFORCES ACCESS CONTROL DECISIONS"
+    },
+    {
+      "term": "PIM",
+      "fullname": "PRIVILEGED IDENTITY MANAGEMENT",
+      "definition": "TEMPORARY ELEVATED PERMISSIONS AS NEEDED"
+    },
+    {
+      "term": "PKI",
+      "fullname": "PUBLIC KEY INFRASTRUCTURE",
+      "definition": "FRAMEWORK FOR MANAGING DIGITAL CERTIFICATES AND ENCRYPTION KEYS"
+    },
+    {
+      "term": "PROVISIONING",
+      "fullname": "",
+      "definition": "CREATING USER ACCOUNTS AND ASSIGNING ACCESS RIGHTS"
+    },
+    {
+      "term": "QUALITATIVE RISK ANALYSIS",
+      "fullname": "",
+      "definition": "RISK ASSESSMENT USING DESCRIPTIVE RATINGS (HIGH/MEDIUM/LOW)"
+    },
+    {
+      "term": "QUANTITATIVE RISK ANALYSIS",
+      "fullname": "",
+      "definition": "RISK ASSESSMENT USING NUMERICAL VALUES AND CALCULATIONS"
+    },
+    {
+      "term": "RACI MATRIX",
+      "fullname": "",
+      "definition": "DEFINES ROLES: RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED"
+    },
+    {
+      "term": "RASP",
+      "fullname": "RUNTIME APPLICATION SELF-PROTECTION",
+      "definition": "SECURITY MONITORING APPLICATIONS DURING EXECUTION"
+    },
+    {
+      "term": "RBAC",
+      "fullname": "ROLE-BASED ACCESS CONTROL",
+      "definition": "ACCESS BASED ON USER'S JOB ROLE"
+    },
+    {
+      "term": "RESIDUAL RISK",
+      "fullname": "",
+      "definition": "RISK REMAINING AFTER CONTROLS APPLIED"
+    },
+    {
+      "term": "RISK APPETITE",
+      "fullname": "",
+      "definition": "AMOUNT OF RISK ORGANIZATION WILLING TO ACCEPT"
+    },
+    {
+      "term": "RISK TOLERANCE",
+      "fullname": "",
+      "definition": "ACCEPTABLE DEVIATION FROM RISK APPETITE"
+    },
+    {
+      "term": "ROOT CAUSE ANALYSIS",
+      "fullname": "",
+      "definition": "IDENTIFYING UNDERLYING CAUSE OF INCIDENT TO PREVENT RECURRENCE"
+    },
+    {
+      "term": "SAAS",
+      "fullname": "SOFTWARE AS A SERVICE",
+      "definition": "CLOUD PROVIDER OFFERS READY-TO-USE APPLICATIONS"
+    },
+    {
+      "term": "SAML",
+      "fullname": "SECURITY ASSERTIONS MARKUP LANGUAGE",
+      "definition": "XML-BASED STANDARD FOR SSO AUTHENTICATION"
+    },
+    {
+      "term": "SAN",
+      "fullname": "SUBJECT ALTERNATIVE NAME",
+      "definition": "CERTIFICATE SECURING MULTIPLE DOMAINS"
+    },
+    {
+      "term": "SASE",
+      "fullname": "SECURE ACCESS SERVICE EDGE",
+      "definition": "CLOUD-BASED NETWORK SECURITY COMBINING SD-WAN AND SECURITY"
+    },
+    {
+      "term": "SAST",
+      "fullname": "STATIC APPLICATION SECURITY TESTING",
+      "definition": "ANALYZES SOURCE CODE WITHOUT EXECUTION"
+    },
+    {
+      "term": "SBOM",
+      "fullname": "SOFTWARE BILL OF MATERIALS",
+      "definition": "INVENTORY OF SOFTWARE COMPONENTS"
+    },
+    {
+      "term": "SCA",
+      "fullname": "SOFTWARE COMPOSITION ANALYSIS",
+      "definition": "ANALYZES THIRD-PARTY COMPONENTS FOR VULNERABILITIES"
+    },
+    {
+      "term": "SCADA",
+      "fullname": "SUPERVISORY CONTROL AND DATA ACQUISITION",
+      "definition": "INDUSTRIAL CONTROL SYSTEM FOR INFRASTRUCTURE"
+    },
+    {
+      "term": "SECRETS MANAGEMENT",
+      "fullname": "",
+      "definition": "SECURE STORAGE AND HANDLING OF SENSITIVE CREDENTIALS"
+    },
+    {
+      "term": "SEGMENTATION",
+      "fullname": "",
+      "definition": "DIVIDING NETWORK INTO SMALLER, ISOLATED SECTIONS"
+    },
+    {
+      "term": "SED",
+      "fullname": "SELF-ENCRYPTING DRIVE",
+      "definition": "HARD DRIVE WITH BUILT-IN HARDWARE ENCRYPTION"
+    },
+    {
+      "term": "SELINUX",
+      "fullname": "",
+      "definition": "SECURITY-ENHANCED LINUX WITH MANDATORY ACCESS CONTROL"
+    },
+    {
+      "term": "SIEM",
+      "fullname": "SECURITY INFORMATION AND EVENT MANAGEMENT",
+      "definition": "CENTRALIZED LOG MANAGEMENT AND ANALYSIS PLATFORM"
+    },
+    {
+      "term": "SLE",
+      "fullname": "SINGLE LOSS EXPECTANCY",
+      "definition": "EXPECTED LOSS FROM SINGLE OCCURRENCE OF RISK"
+    },
+    {
+      "term": "SOAR",
+      "fullname": "SECURITY ORCHESTRATION, AUTOMATION, AND RESPONSE",
+      "definition": "PLATFORM AUTOMATING SECURITY OPERATIONS"
+    },
+    {
+      "term": "SOC 2",
+      "fullname": "",
+      "definition": "AUDIT FRAMEWORK FOR SERVICE ORGANIZATIONS' SECURITY CONTROLS"
+    },
+    {
+      "term": "SPF",
+      "fullname": "SENDER POLICY FRAMEWORK",
+      "definition": "EMAIL AUTHENTICATION PREVENTING SENDER ADDRESS FORGERY"
+    },
+    {
+      "term": "SSRF",
+      "fullname": "SERVER-SIDE REQUEST FORGERY",
+      "definition": "ATTACKER MAKES SERVER SEND UNINTENDED REQUESTS"
+    },
+    {
+      "term": "SSO",
+      "fullname": "SINGLE SIGN-ON",
+      "definition": "AUTHENTICATE ONCE TO ACCESS MULTIPLE SERVICES"
+    },
+    {
+      "term": "STIX",
+      "fullname": "STRUCTURED THREAT INFORMATION EXCHANGE",
+      "definition": "STANDARDIZED THREAT INTELLIGENCE FORMAT"
+    },
+    {
+      "term": "STRIDE",
+      "fullname": "",
+      "definition": "THREAT MODEL: SPOOFING, TAMPERING, REPUDIATION, INFORMATION DISCLOSURE, DOS, ELEVATION OF PRIVILEGE"
+    },
+    {
+      "term": "TAXII",
+      "fullname": "TRUSTED AUTOMATED EXCHANGE OF INDICATOR INFORMATION",
+      "definition": "PROTOCOL FOR SHARING STIX THREAT DATA"
+    },
+    {
+      "term": "TIP",
+      "fullname": "THREAT INTELLIGENCE PLATFORM",
+      "definition": "SYSTEM AGGREGATING AND CORRELATING THREAT INTELLIGENCE"
+    },
+    {
+      "term": "TOCTOU",
+      "fullname": "TIME OF CHECK, TIME OF USE",
+      "definition": "RACE CONDITION WHERE SYSTEM STATE CHANGES BETWEEN CHECK AND USE"
+    },
+    {
+      "term": "TPM",
+      "fullname": "TRUSTED PLATFORM MODULE",
+      "definition": "HARDWARE CHIP STORING CRYPTOGRAPHIC KEYS, ENSURING SECURE BOOT"
+    },
+    {
+      "term": "TTP",
+      "fullname": "TACTICS, TECHNIQUES, PROCEDURES",
+      "definition": "HOW THREAT ACTORS OPERATE"
+    },
+    {
+      "term": "VTPM",
+      "fullname": "VIRTUAL TPM",
+      "definition": "SOFTWARE-BASED TPM FOR VIRTUAL MACHINES"
+    },
+    {
+      "term": "VULNERABILITY",
+      "fullname": "",
+      "definition": "WEAKNESS THAT COULD BE EXPLOITED"
+    },
+    {
+      "term": "WAF",
+      "fullname": "WEB APPLICATION FIREWALL",
+      "definition": "FIREWALL PROTECTING WEB APPLICATIONS FROM ATTACKS"
+    },
+    {
+      "term": "XSS",
+      "fullname": "CROSS-SITE SCRIPTING",
+      "definition": "INJECTING MALICIOUS SCRIPTS INTO WEB PAGES VIEWED BY OTHERS"
+    },
+    {
+      "term": "YARA",
+      "fullname": "YET ANOTHER RECURSIVE ACRONYM",
+      "definition": "PATTERN MATCHING TOOL FOR MALWARE IDENTIFICATION"
+    },
+    {
+      "term": "ZERO TRUST",
+      "fullname": "",
+      "definition": "SECURITY MODEL: \"NEVER TRUST, ALWAYS VERIFY\" - CONTINUOUS VERIFICATION REQUIRED"
+    },
+    {
+      "term": "ZONE TRANSFER",
+      "fullname": "",
+      "definition": "COPYING DNS ZONE FILE; IF UNSECURED, REVEALS ALL DNS RECORDS"
+    }
+  ]
+}
