@@ -4,12 +4,12 @@
     {
       "term": "ABAC",
       "fullname": "ATTRIBUTE-BASED ACCESS CONTROL",
-      "definition": "ACCESS CONTROL BASED ON USER/RESOURCE ATTRIBUTES (ROLE, DEPARTMENT, CLEARANCE LEVEL)"
+      "definition": "ACCESS BASED ON ATTRIBUTES LIKE ROLE, DEPT, OR CLEARANCE"
     },
     {
       "term": "API GATEWAY",
-      "fullname": "",
-      "definition": "ENTRY POINT THAT MANAGES, ROUTES, AND SECURES API TRAFFIC BETWEEN CLIENTS AND BACKEND SERVICES"
+      "fullname": "ROUTES & SECURES API TRAFFIC",
+      "definition": "ROUTES AND SECURES API TRAFFIC BETWEEN CLIENTS AND SERVICES"
     },
     {
       "term": "APT",
@@ -28,23 +28,23 @@
     },
     {
       "term": "ATTESTATION",
-      "fullname": "",
+      "fullname": "VERIFIES DEVICE MEETS STANDARDS",
       "definition": "VERIFICATION THAT USER/DEVICE MEETS SECURITY STANDARDS BEFORE GRANTING ACCESS"
     },
     {
       "term": "ATTACK SURFACE",
-      "fullname": "",
+      "fullname": "ALL POSSIBLE ENTRY POINTS",
       "definition": "SUM OF ALL POSSIBLE ENTRY POINTS AN ATTACKER COULD EXPLOIT"
     },
     {
       "term": "BASELINE",
-      "fullname": "",
+      "fullname": "MINIMUM SECURE CONFIGURATION",
       "definition": "MINIMUM SECURITY CONFIGURATION OR NORMAL OPERATIONAL STATE"
     },
     {
       "term": "BIOMETRICS",
-      "fullname": "",
-      "definition": "AUTHENTICATION USING PHYSICAL CHARACTERISTICS (FINGERPRINT, FACIAL RECOGNITION, IRIS SCAN)"
+      "fullname": "FINGERPRINT/FACE/IRIS AUTH",
+      "definition": "AUTH USING FINGERPRINT, FACE, OR IRIS SCAN"
     },
     {
       "term": "BIA",
@@ -83,12 +83,12 @@
     },
     {
       "term": "COBIT",
-      "fullname": "",
+      "fullname": "IT GOVERNANCE FRAMEWORK",
       "definition": "IT GOVERNANCE FRAMEWORK ALIGNING IT WITH BUSINESS OBJECTIVES"
     },
     {
       "term": "CREDENTIAL DUMPING",
-      "fullname": "",
+      "fullname": "EXTRACTING STORED LOGINS",
       "definition": "EXTRACTING STORED USERNAMES AND PASSWORDS FROM SYSTEM"
     },
     {
@@ -118,12 +118,12 @@
     },
     {
       "term": "DEFENSE",
-      "fullname": "",
+      "fullname": "LAYERED SECURITY CONTROLS",
       "definition": "IN-DEPTH - LAYERED SECURITY APPROACH WITH MULTIPLE CONTROLS"
     },
     {
       "term": "DEPROVISIONING",
-      "fullname": "",
+      "fullname": "REMOVING USER ACCESS",
       "definition": "REMOVING USER ACCESS AND CREDENTIALS WHEN NO LONGER NEEDED"
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "term": "FEDERATION",
-      "fullname": "",
+      "fullname": "SHARED IDENTITY ACROSS DOMAINS",
       "definition": "SHARING IDENTITY INFORMATION ACROSS MULTIPLE TRUSTED DOMAINS"
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "term": "FAIL SECURE/FAIL SAFE",
-      "fullname": "",
+      "fullname": "DEFAULTS SECURE ON FAILURE",
       "definition": "SYSTEM DEFAULTS TO SECURE STATE UPON FAILURE"
     },
     {
@@ -198,8 +198,8 @@
     },
     {
       "term": "HARDENING",
-      "fullname": "",
-      "definition": "SECURING SYSTEM BY REDUCING ATTACK SURFACE AND APPLYING SECURITY CONFIGURATIONS"
+      "fullname": "REDUCING ATTACK SURFACE",
+      "definition": "REDUCING ATTACK SURFACE VIA SECURE CONFIGS"
     },
     {
       "term": "HIDS",
@@ -213,7 +213,7 @@
     },
     {
       "term": "HONEYPOT",
-      "fullname": "",
+      "fullname": "DECOY SYSTEM FOR ATTACKERS",
       "definition": "DECOY SYSTEM ATTRACTING ATTACKERS TO STUDY THEIR METHODS"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "term": "HVAC",
-      "fullname": "",
+      "fullname": "BUILDING CLIMATE SYSTEM (OT)",
       "definition": "HEATING, VENTILATION, AIR CONDITIONING SYSTEMS (OT TARGET)"
     },
     {
@@ -278,22 +278,22 @@
     },
     {
       "term": "KERBEROS",
-      "fullname": "",
+      "fullname": "TICKET-BASED AUTH PROTOCOL",
       "definition": "NETWORK AUTHENTICATION PROTOCOL USING TICKETS (USED IN ACTIVE DIRECTORY)"
     },
     {
       "term": "LATERAL MOVEMENT",
-      "fullname": "",
+      "fullname": "ATTACKER SPREADING IN NETWORK",
       "definition": "ATTACKER MOVING THROUGH NETWORK TO ACCESS MORE RESOURCES"
     },
     {
       "term": "LEAST PRIVILEGE",
-      "fullname": "",
+      "fullname": "MINIMUM NEEDED ACCESS",
       "definition": "USERS GRANTED MINIMUM PERMISSIONS NEEDED FOR THEIR ROLE"
     },
     {
       "term": "LEGACY SYSTEM",
-      "fullname": "",
+      "fullname": "PAST EOL/EOSL",
       "definition": "OUTDATED SYSTEM APPROACHING OR PAST EOL/EOSL"
     },
     {
@@ -318,12 +318,12 @@
     },
     {
       "term": "MICROSEGMENTATION",
-      "fullname": "",
+      "fullname": "FINE-GRAINED NET SEGMENTS",
       "definition": "FINE-GRAINED NETWORK SEGMENTATION AT WORKLOAD LEVEL"
     },
     {
       "term": "MITRE ATT&CK",
-      "fullname": "",
+      "fullname": "ADVERSARY TACTICS FRAMEWORK",
       "definition": "FRAMEWORK CATEGORIZING ADVERSARY TACTICS, TECHNIQUES, PROCEDURES"
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "term": "OAUTH",
-      "fullname": "",
+      "fullname": "TOKEN-BASED AUTH FRAMEWORK",
       "definition": "AUTHORIZATION FRAMEWORK FOR TOKEN-BASED ACCESS TO USER DATA"
     },
     {
@@ -373,7 +373,7 @@
     },
     {
       "term": "OWASP",
-      "fullname": "",
+      "fullname": "WEB APP SECURITY STANDARDS",
       "definition": "OPEN WEB APPLICATION SECURITY PROJECT; SECURITY STANDARDS AND TOOLS"
     },
     {
@@ -388,7 +388,7 @@
     },
     {
       "term": "PCI DSS",
-      "fullname": "",
+      "fullname": "CARD DATA SECURITY STANDARD",
       "definition": "PAYMENT CARD INDUSTRY DATA SECURITY STANDARD FOR PROTECTING CARD DATA"
     },
     {
@@ -413,22 +413,22 @@
     },
     {
       "term": "PROVISIONING",
-      "fullname": "",
+      "fullname": "CREATING USER ACCESS",
       "definition": "CREATING USER ACCOUNTS AND ASSIGNING ACCESS RIGHTS"
     },
     {
       "term": "QUALITATIVE RISK ANALYSIS",
-      "fullname": "",
+      "fullname": "HIGH/MED/LOW RATINGS",
       "definition": "RISK ASSESSMENT USING DESCRIPTIVE RATINGS (HIGH/MEDIUM/LOW)"
     },
     {
       "term": "QUANTITATIVE RISK ANALYSIS",
-      "fullname": "",
+      "fullname": "NUMERIC RISK CALCULATIONS",
       "definition": "RISK ASSESSMENT USING NUMERICAL VALUES AND CALCULATIONS"
     },
     {
       "term": "RACI MATRIX",
-      "fullname": "",
+      "fullname": "RESPONSIBLE/ACCOUNTABLE/CONSULTED/INFORMED",
       "definition": "DEFINES ROLES: RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED"
     },
     {
@@ -443,22 +443,22 @@
     },
     {
       "term": "RESIDUAL RISK",
-      "fullname": "",
+      "fullname": "RISK AFTER CONTROLS APPLIED",
       "definition": "RISK REMAINING AFTER CONTROLS APPLIED"
     },
     {
       "term": "RISK APPETITE",
-      "fullname": "",
+      "fullname": "RISK ORG WILL ACCEPT",
       "definition": "AMOUNT OF RISK ORGANIZATION WILLING TO ACCEPT"
     },
     {
       "term": "RISK TOLERANCE",
-      "fullname": "",
+      "fullname": "DEVIATION FROM APPETITE",
       "definition": "ACCEPTABLE DEVIATION FROM RISK APPETITE"
     },
     {
       "term": "ROOT CAUSE ANALYSIS",
-      "fullname": "",
+      "fullname": "FINDING INCIDENT'S CAUSE",
       "definition": "IDENTIFYING UNDERLYING CAUSE OF INCIDENT TO PREVENT RECURRENCE"
     },
     {
@@ -503,12 +503,12 @@
     },
     {
       "term": "SECRETS MANAGEMENT",
-      "fullname": "",
+      "fullname": "SECURE CREDENTIAL STORAGE",
       "definition": "SECURE STORAGE AND HANDLING OF SENSITIVE CREDENTIALS"
     },
     {
       "term": "SEGMENTATION",
-      "fullname": "",
+      "fullname": "DIVIDING NETWORK INTO PARTS",
       "definition": "DIVIDING NETWORK INTO SMALLER, ISOLATED SECTIONS"
     },
     {
@@ -518,7 +518,7 @@
     },
     {
       "term": "SELINUX",
-      "fullname": "",
+      "fullname": "LINUX MANDATORY ACCESS CONTROL",
       "definition": "SECURITY-ENHANCED LINUX WITH MANDATORY ACCESS CONTROL"
     },
     {
@@ -538,7 +538,7 @@
     },
     {
       "term": "SOC 2",
-      "fullname": "",
+      "fullname": "SECURITY AUDIT FRAMEWORK",
       "definition": "AUDIT FRAMEWORK FOR SERVICE ORGANIZATIONS' SECURITY CONTROLS"
     },
     {
@@ -563,8 +563,8 @@
     },
     {
       "term": "STRIDE",
-      "fullname": "",
-      "definition": "THREAT MODEL: SPOOFING, TAMPERING, REPUDIATION, INFORMATION DISCLOSURE, DOS, ELEVATION OF PRIVILEGE"
+      "fullname": "THREAT MODELING CATEGORIES",
+      "definition": "SPOOF, TAMPER, REPUDIATE, DISCLOSE, DOS, ELEVATE PRIVILEGE"
     },
     {
       "term": "TAXII",
@@ -598,7 +598,7 @@
     },
     {
       "term": "VULNERABILITY",
-      "fullname": "",
+      "fullname": "EXPLOITABLE WEAKNESS",
       "definition": "WEAKNESS THAT COULD BE EXPLOITED"
     },
     {
@@ -618,12 +618,12 @@
     },
     {
       "term": "ZERO TRUST",
-      "fullname": "",
+      "fullname": "NEVER TRUST, ALWAYS VERIFY",
       "definition": "SECURITY MODEL: \"NEVER TRUST, ALWAYS VERIFY\" - CONTINUOUS VERIFICATION REQUIRED"
     },
     {
       "term": "ZONE TRANSFER",
-      "fullname": "",
+      "fullname": "COPYING DNS ZONE DATA",
       "definition": "COPYING DNS ZONE FILE; IF UNSECURED, REVEALS ALL DNS RECORDS"
     }
   ]
