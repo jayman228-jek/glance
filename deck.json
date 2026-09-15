@@ -43,7 +43,7 @@
     },
     {
       "term": "BIOMETRICS",
-      "fullname": "FINGERPRINT/FACE/IRIS AUTH",
+      "fullname": "FINGERPRINT, FACE, OR IRIS AUTH",
       "definition": "AUTH USING FINGERPRINT, FACE, OR IRIS SCAN"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "term": "BC/DR",
-      "fullname": "BUSINESS CONTINUITY/DISASTER RECOVERY",
+      "fullname": "BUSINESS CONTINUITY & DISASTER RECOVERY",
       "definition": "PLANS TO MAINTAIN OPERATIONS DURING AND AFTER DISASTERS"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "term": "CI/CD",
-      "fullname": "CONTINUOUS INTEGRATION/CONTINUOUS DEPLOYMENT",
+      "fullname": "CONTINUOUS INTEGRATION & DEPLOYMENT",
       "definition": "AUTOMATED SOFTWARE BUILD, TEST, AND DEPLOYMENT"
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "term": "EOSL",
-      "fullname": "END-OF-SERVICE-LIFE",
+      "fullname": "END OF SERVICE LIFE",
       "definition": "ALL VENDOR SUPPORT HALTED; SYSTEM HIGHLY VULNERABLE"
     },
     {
@@ -428,7 +428,7 @@
     },
     {
       "term": "RACI MATRIX",
-      "fullname": "RESPONSIBLE/ACCOUNTABLE/CONSULTED/INFORMED",
+      "fullname": "RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED",
       "definition": "DEFINES ROLES: RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED"
     },
     {
