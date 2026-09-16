@@ -1,0 +1,16 @@
+{
+  "channels": [
+    {"num": "4.1", "callsign": "KAMR", "network": "NBC"},
+    {"num": "10.1", "callsign": "KFDA", "network": "CBS"},
+    {"num": "7.1", "callsign": "KVII", "network": "ABC"},
+    {"num": "14.1", "callsign": "KCIT", "network": "FOX"},
+    {"num": "31.1", "callsign": "KEYU", "network": "Telemundo"}
+  ],
+  "favorites": [
+    "Big Brother", "Survivor", "The Amazing Race", "Fire Country",
+    "The Big Bang Theory", "Ghosts", "The Neighborhood", "The Simpsons",
+    "Abbott Elementary", "Dancing with the Stars", "9-1-1", "9-1-1: Lone Star",
+    "NCIS: Origins", "The Traitors", "House of Villains", "St. Denis Medical",
+    "Happy's Place"
+  ]
+}
