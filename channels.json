@@ -7,7 +7,7 @@
     {"num": "31.1", "callsign": "KEYU", "network": "Telemundo"}
   ],
   "favorites": [
-    {"title": "Big Brother", "seasons": ["summer"]},
+    {"title": "Big Brother", "seasons": ["summer", "fall"]},
     {"title": "Survivor", "seasons": ["fall", "spring"]},
     {"title": "The Amazing Race", "seasons": ["fall"]},
     {"title": "Fire Country", "seasons": ["fall"]},
