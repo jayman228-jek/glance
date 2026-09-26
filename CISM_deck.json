@@ -1,0 +1,610 @@
+{
+  "title": "ISACA CISM",
+  "terms": [
+    {
+      "term": "CIA TRIAD",
+      "fullname": "CONFIDENTIALITY, INTEGRITY, AVAILABILITY",
+      "definition": "THREE CORE INFORMATION SECURITY OBJECTIVES"
+    },
+    {
+      "term": "CONFIDENTIALITY",
+      "fullname": "PROTECTION FROM UNAUTHORIZED DISCLOSURE",
+      "definition": "ENSURES UNAUTHORIZED INDIVIDUALS CANNOT ACCESS SENSITIVE"
+    },
+    {
+      "term": "INTEGRITY",
+      "fullname": "PROTECTION FROM UNAUTHORIZED MODIFICATION",
+      "definition": "ENSURES INFORMATION AND SYSTEMS ARE NOT IMPROPERLY ALTERED,"
+    },
+    {
+      "term": "AVAILABILITY",
+      "fullname": "TIMELY ACCESS TO INFORMATION AND SYSTEMS",
+      "definition": "ENSURES INFORMATION AND SYSTEMS ARE READY FOR LEGITIMATE USERS"
+    },
+    {
+      "term": "CISO",
+      "fullname": "CHIEF INFORMATION SECURITY OFFICER",
+      "definition": "SENIOR SECURITY LEADER HANDLES OVERSEEING THE ORG’S SECURITY"
+    },
+    {
+      "term": "RACI",
+      "fullname": "RESPONSIBLE, ACCOUNTABLE, CONSULTED, INFORMED",
+      "definition": "MATRIX USED TO DEFINE PARTICIPATION AND ACCOUNTABILITY FOR"
+    },
+    {
+      "term": "RESPONSIBLE",
+      "fullname": "RACI: PERFORMS THE WORK",
+      "definition": "ROLE THAT ACTUALLY CARRIES OUT A TASK"
+    },
+    {
+      "term": "ACCOUNTABLE",
+      "fullname": "RACI: ULTIMATE OWNER",
+      "definition": "ROLE WITH FINAL RESPONSIBILITY FOR AN OBJECTIVE"
+    },
+    {
+      "term": "CONSULTED",
+      "fullname": "RACI: PROVIDES INPUT",
+      "definition": "ROLE THAT PROVIDES SUBJECT-MATTER INPUT BEFORE OR DURING THE"
+    },
+    {
+      "term": "INFORMED",
+      "fullname": "RACI: RECEIVES UPDATES",
+      "definition": "ROLE KEPT UPDATED ON STATUS BUT NOT EXPECTED TO PROVIDE INPUT"
+    },
+    {
+      "term": "DATA OWNER",
+      "fullname": "SENIOR OFFICIAL ACCOUNTABLE FOR DATA",
+      "definition": "SETS POLICIES AND GUIDELINES FOR A DATASET AND HAS FINAL"
+    },
+    {
+      "term": "DATA STEWARD",
+      "fullname": "DAY-TO-DAY DATA GOVERNANCE ROLE",
+      "definition": "IMPLEMENTS THE HIGH-LEVEL DATA POLICIES ESTABLISHED BY THE DATA"
+    },
+    {
+      "term": "DATA CUSTODIAN",
+      "fullname": "STORES AND PROCESSES DATA",
+      "definition": "TECHNICAL ROLE THAT STORES, PROCESSES, AND IMPLEMENTS"
+    },
+    {
+      "term": "DATA PROCESSOR",
+      "fullname": "THIRD PARTY PROCESSING DATA",
+      "definition": "ORG THAT HANDLES DATA ON BEHALF OF THE PARTY HANDLES THAT DATA"
+    },
+    {
+      "term": "SWOT",
+      "fullname": "STRENGTHS, WEAKNESSES, OPPORTUNITIES, THREATS",
+      "definition": "ANALYSIS USED TO ASSESS INTERNAL AND EXTERNAL FACTORS WHEN"
+    },
+    {
+      "term": "GAP ANALYSIS",
+      "fullname": "CURRENT STATE VS. DESIRED STATE",
+      "definition": "IDENTIFIES DIFFERENCES BETWEEN EXISTING SECURITY CAPABILITIES"
+    },
+    {
+      "term": "INFORMATION SECURITY STRATEGY",
+      "fullname": "LONG-TERM SECURITY DIRECTION",
+      "definition": "PLAN THAT ALIGNS SECURITY OBJECTIVES AND INITIATIVES WITH ORGAL"
+    },
+    {
+      "term": "GOVERNANCE",
+      "fullname": "DIRECTION AND OVERSIGHT",
+      "definition": "PROCEDURES AND CONTROLS USED TO DIRECT ORGAL WORK AND KEEP IT"
+    },
+    {
+      "term": "GRC",
+      "fullname": "GOVERNANCE, RISK, AND COMPLIANCE",
+      "definition": "INTEGRATED APPROACH COMBINING ORGAL GOVERNANCE, RISK"
+    },
+    {
+      "term": "COBIT",
+      "fullname": "CONTROL OBJECTIVES FOR INFORMATION AND RELATED TECHNOLOGIES",
+      "definition": "GOVERNANCE FRAMEWORK USED TO ALIGN INFORMATION AND TECHNOLOGY"
+    },
+    {
+      "term": "NIST CSF",
+      "fullname": "NIST CYBERSECURITY FRAMEWORK",
+      "definition": "FRAMEWORK PROVIDING A COMMON STRUCTURE FOR ORGANIZING AND"
+    },
+    {
+      "term": "ISO 27001",
+      "fullname": "INFORMATION SECURITY MANAGEMENT SYSTEM STANDARD",
+      "definition": "INTERNATIONAL STANDARD USED TO STRUCTURE AND ASSESS AN SECURITY"
+    },
+    {
+      "term": "POLICY",
+      "fullname": "HIGH-LEVEL MANAGEMENT INTENT",
+      "definition": "MANDATORY BROAD STATEMENT THAT SETS MANAGEMENT EXPECTATIONS AND"
+    },
+    {
+      "term": "STANDARD",
+      "fullname": "MANDATORY IMPLEMENTATION REQUIREMENT",
+      "definition": "DETAILED REQUIREMENT THAT DESCRIBES HOW A POLICY MUST BE"
+    },
+    {
+      "term": "PROCEDURE",
+      "fullname": "STEP-BY-STEP INSTRUCTIONS",
+      "definition": "MANDATORY DETAILED INSTRUCTIONS FOR CARRYING OUT A SECURITY"
+    },
+    {
+      "term": "GUIDELINE",
+      "fullname": "OPTIONAL RECOMMENDED PRACTICE",
+      "definition": "NONMANDATORY ADVICE THAT COMPLEMENTS POLICIES, STANDARDS, AND"
+    },
+    {
+      "term": "POLICY EXCEPTION",
+      "fullname": "APPROVED DEVIATION FROM POLICY",
+      "definition": "FORMAL PROCESS ALLOWING A DOCUMENTED EXCEPTION, OFTEN WITH"
+    },
+    {
+      "term": "COMPENSATING CONTROL",
+      "fullname": "ALTERNATIVE RISK-REDUCING CONTROL",
+      "definition": "CONTROL USED TO MITIGATE RISK WHEN THE PRIMARY OR REQUIRED"
+    },
+    {
+      "term": "MSA",
+      "fullname": "MASTER SERVICE AGREEMENT",
+      "definition": "UMBRELLA CONTRACT GOVERNING AN ONGOING VENDOR RELATIONSHIP AND"
+    },
+    {
+      "term": "SOW",
+      "fullname": "STATEMENT OF WORK",
+      "definition": "DOCUMENT DEFINING PROJECT-SPECIFIC WORK AND DETAILS, OFTEN"
+    },
+    {
+      "term": "SLA",
+      "fullname": "SERVICE-LEVEL AGREEMENT",
+      "definition": "CONTRACT DEFINING EXPECTED SERVICE CONDITIONS AND REMEDIES WHEN"
+    },
+    {
+      "term": "MOU",
+      "fullname": "MEMORANDUM OF UNDERSTANDING",
+      "definition": "INFORMAL DOCUMENT USED TO CLARIFY ASPECTS OF A RELATIONSHIP AND"
+    },
+    {
+      "term": "BPA",
+      "fullname": "BUSINESS PARTNERSHIP AGREEMENT",
+      "definition": "AGREEMENT DEFINING RESPONSIBILITIES WHEN ORGS ENTER A BUSINESS"
+    },
+    {
+      "term": "NDA",
+      "fullname": "NONDISCLOSURE AGREEMENT",
+      "definition": "AGREEMENT PROTECTING THE CONFIDENTIALITY OF INFORMATION SHARED"
+    },
+    {
+      "term": "AUDIT",
+      "fullname": "FORMAL INDEPENDENT CONTROL REVIEW",
+      "definition": "RIGOROUS REVIEW THAT TESTS CONTROLS AND RESULTS IN A FORMAL"
+    },
+    {
+      "term": "ASSESSMENT",
+      "fullname": "LESS FORMAL SECURITY REVIEW",
+      "definition": "REVIEW OF SECURITY CONTROLS OR ISSUES, OFTEN COMMISSIONED"
+    },
+    {
+      "term": "SOC 1",
+      "fullname": "SERVICE ORGANIZATION CONTROL 1",
+      "definition": "AUDIT FOCUSED ON CONTROLS THAT MAY AFFECT FINANCIAL REPORTING"
+    },
+    {
+      "term": "SOC 2",
+      "fullname": "SERVICE ORGANIZATION CONTROL 2",
+      "definition": "AUDIT OF CONTROLS AFFECTING SECURITY AND PRIVACY"
+    },
+    {
+      "term": "SOC 3",
+      "fullname": "SERVICE ORGANIZATION CONTROL 3",
+      "definition": "PUBLICLY DISTRIBUTABLE REPORT ON SECURITY AND PRIVACY CONTROLS"
+    },
+    {
+      "term": "TYPE 1 SOC REPORT",
+      "fullname": "DESIGN AT A POINT IN TIME",
+      "definition": "AUDITOR OPINION ON MANAGEMENT’S CONTROL DESCRIPTION AND"
+    },
+    {
+      "term": "TYPE 2 SOC REPORT",
+      "fullname": "DESIGN AND OPERATING EFFECTIVENESS",
+      "definition": "AUDITOR OPINION THAT ALSO EVALUATES WHETHER CONTROLS OPERATED"
+    },
+    {
+      "term": "THREAT",
+      "fullname": "POTENTIAL ADVERSE EVENT",
+      "definition": "EVENT OR ACTOR THAT COULD NEGATIVELY AFFECT CONFIDENTIALITY,"
+    },
+    {
+      "term": "VULNERABILITY",
+      "fullname": "EXPLOITABLE WEAKNESS",
+      "definition": "WEAKNESS IN A SYSTEM OR CONTROL THAT MAY BE EXPLOITED BY A"
+    },
+    {
+      "term": "RISK",
+      "fullname": "THREAT EXPLOITING A VULNERABILITY",
+      "definition": "POTENTIAL FOR LOSS WHERE A RELEVANT THREAT AND VULNERABILITY"
+    },
+    {
+      "term": "RISK SEVERITY",
+      "fullname": "LIKELIHOOD × IMPACT",
+      "definition": "CONCEPTUAL COMBINATION OF PROBABILITY AND MAGNITUDE USED TO"
+    },
+    {
+      "term": "QUALITATIVE RISK ASSESSMENT",
+      "fullname": "SUBJECTIVE RISK ANALYSIS",
+      "definition": "USES JUDGMENT AND CATEGORIES SUCH AS HIGH, MEDIUM, AND LOW"
+    },
+    {
+      "term": "QUANTITATIVE RISK ASSESSMENT",
+      "fullname": "NUMERIC RISK ANALYSIS",
+      "definition": "USES NUMERIC VALUES TO ESTIMATE AND PRIORITIZE RISK"
+    },
+    {
+      "term": "AV",
+      "fullname": "ASSET VALUE",
+      "definition": "MONETARY VALUE ASSIGNED TO AN ASSET FOR QUANTITATIVE RISK"
+    },
+    {
+      "term": "EF",
+      "fullname": "EXPOSURE FACTOR",
+      "definition": "PERCENTAGE OF AN ASSET EXPECTED TO BE LOST OR DAMAGED WHEN A"
+    },
+    {
+      "term": "SLE",
+      "fullname": "SINGLE LOSS EXPECTANCY",
+      "definition": "EXPECTED FINANCIAL LOSS FROM ONE OCCURRENCE; SLE = AV × EF"
+    },
+    {
+      "term": "ARO",
+      "fullname": "ANNUALIZED RATE OF OCCURRENCE",
+      "definition": "EXPECTED NUMBER OF TIMES A RISK EVENT WILL OCCUR IN ONE YEAR"
+    },
+    {
+      "term": "ALE",
+      "fullname": "ANNUALIZED LOSS EXPECTANCY",
+      "definition": "EXPECTED ANNUAL LOSS FROM A RISK; ALE = SLE × ARO"
+    },
+    {
+      "term": "RISK AVOIDANCE",
+      "fullname": "ELIMINATE THE RISK",
+      "definition": "CHANGES BUSINESS PRACTICES SO THE ACTIVITY CREATING THE RISK NO"
+    },
+    {
+      "term": "RISK MITIGATION",
+      "fullname": "REDUCE THE RISK",
+      "definition": "USES CONTROLS TO REDUCE THE LIKELIHOOD OR IMPACT OF A RISK"
+    },
+    {
+      "term": "RISK TRANSFERENCE",
+      "fullname": "SHIFT RISK TO A THIRD PARTY",
+      "definition": "MOVES SOME FINANCIAL OR OPERATIONAL CONSEQUENCES OF RISK TO"
+    },
+    {
+      "term": "RISK ACCEPTANCE",
+      "fullname": "ACKNOWLEDGE AND RETAIN RISK",
+      "definition": "CONTINUES OPERATIONS WITHOUT ADDITIONAL TREATMENT WHEN THE RISK"
+    },
+    {
+      "term": "INHERENT RISK",
+      "fullname": "RISK BEFORE CONTROLS",
+      "definition": "LEVEL OF RISK THAT EXISTS BEFORE RISK TREATMENT OR CONTROLS ARE"
+    },
+    {
+      "term": "RESIDUAL RISK",
+      "fullname": "RISK AFTER CONTROLS",
+      "definition": "RISK REMAINING AFTER MITIGATION, AVOIDANCE, AND/OR TRANSFERENCE"
+    },
+    {
+      "term": "RISK APPETITE",
+      "fullname": "ACCEPTABLE LEVEL OF RISK",
+      "definition": "LEVEL OF RISK THE ORG IS WILLING TO ACCEPT AS A COST OF DOING"
+    },
+    {
+      "term": "RISK TOLERANCE",
+      "fullname": "DEGREE OF ACCEPTABLE RISK",
+      "definition": "DEGREE OF RISK AN ORG IS WILLING TO UNDERTAKE WHILE PURSUING"
+    },
+    {
+      "term": "RISK REGISTER",
+      "fullname": "CENTRAL RISK TRACKING DOCUMENT",
+      "definition": "PRIMARY TOOL USED TO RECORD AND TRACK RISKS FACING THE ORG"
+    },
+    {
+      "term": "RISK MATRIX",
+      "fullname": "RISK HEAT MAP",
+      "definition": "VISUAL SUMMARY OF RISKS USING LIKELIHOOD AND IMPACT TO HELP"
+    },
+    {
+      "term": "PII",
+      "fullname": "PERSONALLY IDENTIFIABLE INFORMATION",
+      "definition": "INFORMATION THAT UNIQUELY IDENTIFIES AN INDIVIDUAL"
+    },
+    {
+      "term": "PHI",
+      "fullname": "PROTECTED HEALTH INFORMATION",
+      "definition": "MEDICAL INFORMATION SUBJECT TO HEALTH-CARE PRIVACY REQUIREMENTS"
+    },
+    {
+      "term": "INFORMATION CLASSIFICATION",
+      "fullname": "CATEGORIZING DATA BY SENSITIVITY",
+      "definition": "ORGANIZES INFORMATION ACCORDING TO SENSITIVITY AND THE IMPACT"
+    },
+    {
+      "term": "INFORMATION SECURITY PROGRAM",
+      "fullname": "EXECUTION OF SECURITY STRATEGY",
+      "definition": "COLLECTION OF POLICIES, STANDARDS, PROCESSES, ACTIVITIES, AND"
+    },
+    {
+      "term": "PROGRAM SCOPE",
+      "fullname": "BOUNDARIES OF THE SECURITY PROGRAM",
+      "definition": "DEFINES WHICH SECURITY OBJECTIVES AND WHICH PORTIONS OF THE ORG"
+    },
+    {
+      "term": "PROGRAM CHARTER",
+      "fullname": "ORGANIZING DOCUMENT FOR SECURITY PROGRAM",
+      "definition": "DOCUMENT DEFINING PROGRAM SCOPE, PURPOSE, AUTHORITY, ROLES,"
+    },
+    {
+      "term": "STEERING COMMITTEE",
+      "fullname": "CROSS-FUNCTIONAL GOVERNANCE GROUP",
+      "definition": "GROUP REPRESENTING BUSINESS UNITS THAT HELPS ALIGN SECURITY"
+    },
+    {
+      "term": "KPI",
+      "fullname": "KEY PERFORMANCE INDICATOR",
+      "definition": "METRIC SHOWING HOW SUCCESSFULLY THE SECURITY PROGRAM HAS"
+    },
+    {
+      "term": "KGI",
+      "fullname": "KEY GOAL INDICATOR",
+      "definition": "METRIC THAT MEASURES PROGRESS TOWARD DEFINED GOALS"
+    },
+    {
+      "term": "KRI",
+      "fullname": "KEY RISK INDICATOR",
+      "definition": "METRIC USED TO QUANTIFY OR SIGNAL FUTURE SECURITY RISK"
+    },
+    {
+      "term": "SECURITY TRAINING",
+      "fullname": "TEACHING NEW SECURITY KNOWLEDGE",
+      "definition": "ROLE-APPROPRIATE EDUCATION THAT IMPARTS NEW KNOWLEDGE OR SKILLS"
+    },
+    {
+      "term": "SECURITY AWARENESS",
+      "fullname": "REINFORCING SECURITY RESPONSIBILITIES",
+      "definition": "ONGOING EFFORTS THAT KEEP ALREADY-LEARNED SECURITY"
+    },
+    {
+      "term": "CHANGE MANAGEMENT",
+      "fullname": "CONTROLLED SYSTEM CHANGE PROCESS",
+      "definition": "STANDARDIZED PROCESS FOR REQUESTING, REVIEWING, APPROVING,"
+    },
+    {
+      "term": "RFC",
+      "fullname": "REQUEST FOR CHANGE",
+      "definition": "FORMAL REQUEST TO MAKE A CONTROLLED SYSTEM CHANGE"
+    },
+    {
+      "term": "CAB",
+      "fullname": "CHANGE ADVISORY BOARD",
+      "definition": "GROUP THAT REVIEWS AND APPROVES MAJOR CHANGES"
+    },
+    {
+      "term": "CONFIGURATION MANAGEMENT",
+      "fullname": "TRACKING SYSTEM CONFIGURATION",
+      "definition": "PROCESS FOR TRACKING OPERATING SYSTEM SETTINGS, INSTALLED"
+    },
+    {
+      "term": "BASELINE",
+      "fullname": "KNOWN CONFIGURATION SNAPSHOT",
+      "definition": "SNAPSHOT OF A SYSTEM OR APPLICATION USED TO IDENTIFY CHANGES"
+    },
+    {
+      "term": "THREAT INTELLIGENCE",
+      "fullname": "INFORMATION ABOUT THREATS AND ADVERSARIES",
+      "definition": "INFORMATION USED TO UNDERSTAND CURRENT THREATS,"
+    },
+    {
+      "term": "TTP",
+      "fullname": "TACTICS, TECHNIQUES, AND PROCEDURES",
+      "definition": "PATTERNS DESCRIBING HOW THREAT ACTORS OPERATE"
+    },
+    {
+      "term": "DLP",
+      "fullname": "DATA LOSS PREVENTION",
+      "definition": "TECHNOLOGY THAT IDENTIFIES SENSITIVE DATA AND HELPS PREVENT"
+    },
+    {
+      "term": "EDR",
+      "fullname": "ENDPOINT DETECTION AND RESPONSE",
+      "definition": "ENDPOINT SECURITY PLATFORM THAT DETECTS, CONTAINS,"
+    },
+    {
+      "term": "NETWORK SEGMENTATION",
+      "fullname": "DIVIDING NETWORKS BY SECURITY NEED",
+      "definition": "SEPARATES SYSTEMS INTO SEGMENTS TO LIMIT THE EFFECT OF"
+    },
+    {
+      "term": "DMZ",
+      "fullname": "DEMILITARIZED ZONE",
+      "definition": "SEPARATE NETWORK FOR PUBLIC-FACING SYSTEMS THAT LIMITS EXPOSURE"
+    },
+    {
+      "term": "ZERO TRUST",
+      "fullname": "NO TRUST BASED ONLY ON LOCATION",
+      "definition": "SECURITY APPROACH WHERE SYSTEMS DO NOT RECEIVE PRIVILEGES"
+    },
+    {
+      "term": "IDS",
+      "fullname": "INTRUSION DETECTION SYSTEM",
+      "definition": "MONITORS TRAFFIC AND ALERTS ON POSSIBLE ATTACKS"
+    },
+    {
+      "term": "IPS",
+      "fullname": "INTRUSION PREVENTION SYSTEM",
+      "definition": "DETECTS AND ACTIVELY BLOCKS MALICIOUS TRAFFIC"
+    },
+    {
+      "term": "CASB",
+      "fullname": "CLOUD ACCESS SECURITY BROKER",
+      "definition": "ENFORCES SECURITY POLICY BETWEEN USERS AND CLOUD"
+    },
+    {
+      "term": "SECURITY EVENT",
+      "fullname": "SECURITY-RELATED OBSERVABLE OCCURRENCE",
+      "definition": "OBSERVABLE OCCURRENCE IN A SYSTEM OR NETWORK THAT RELATES TO A"
+    },
+    {
+      "term": "ADVERSE EVENT",
+      "fullname": "EVENT WITH NEGATIVE CONSEQUENCES",
+      "definition": "EVENT THAT CAUSES A NEGATIVE EFFECT, SUCH AS MALWARE INFECTION,"
+    },
+    {
+      "term": "SECURITY INCIDENT",
+      "fullname": "VIOLATION OR IMMINENT THREAT OF VIOLATION",
+      "definition": "KNOWN OR IMMINENT VIOLATION OF SECURITY POLICY, ACCEPTABLE USE"
+    },
+    {
+      "term": "CSIRT",
+      "fullname": "COMPUTER SECURITY INCIDENT RESPONSE TEAM",
+      "definition": "TEAM THAT COORDINATES SECURITY INCIDENT RESPONSE"
+    },
+    {
+      "term": "INCIDENT RESPONSE",
+      "fullname": "COORDINATED RESPONSE TO SECURITY INCIDENTS",
+      "definition": "REPEATABLE PROCESS COVERING PREPARATION, DETECTION AND"
+    },
+    {
+      "term": "PREPARATION",
+      "fullname": "INCIDENT RESPONSE PHASE 1",
+      "definition": "ESTABLISHES POLICY, PROCEDURES, TRAINING, DEFENSES, TOOLS,"
+    },
+    {
+      "term": "DETECTION AND ANALYSIS",
+      "fullname": "INCIDENT RESPONSE PHASE 2",
+      "definition": "IDENTIFIES AND VALIDATES POTENTIAL INCIDENTS USING ALERTS,"
+    },
+    {
+      "term": "CONTAINMENT",
+      "fullname": "LIMIT INCIDENT DAMAGE",
+      "definition": "ISOLATES OR RESTRICTS AN INCIDENT TO PREVENT FURTHER SPREAD OR"
+    },
+    {
+      "term": "ERADICATION",
+      "fullname": "REMOVE INCIDENT CAUSE AND EFFECTS",
+      "definition": "ELIMINATES MALICIOUS PRESENCE OR OTHER EFFECTS OF AN INCIDENT"
+    },
+    {
+      "term": "RECOVERY",
+      "fullname": "RESTORE NORMAL OPERATIONS",
+      "definition": "RETURNS SYSTEMS AND BUSINESS OPERATIONS TO AN ACCEPTABLE NORMAL"
+    },
+    {
+      "term": "POST-INCIDENT ACTIVITY",
+      "fullname": "LESSONS LEARNED AND IMPROVEMENT",
+      "definition": "REVIEWS THE INCIDENT, RETAINS REQUIRED EVIDENCE, IDENTIFIES"
+    },
+    {
+      "term": "INCIDENT RESPONSE POLICY",
+      "fullname": "HIGH-LEVEL INCIDENT RESPONSE AUTHORITY",
+      "definition": "FOUNDATIONAL DOCUMENT THAT DEFINES INCIDENT RESPONSE PURPOSE,"
+    },
+    {
+      "term": "INCIDENT RESPONSE PROCEDURE",
+      "fullname": "DETAILED RESPONSE INSTRUCTIONS",
+      "definition": "TACTICAL STEP-BY-STEP INFORMATION USED BY RESPONDERS DURING"
+    },
+    {
+      "term": "PLAYBOOK",
+      "fullname": "SCENARIO-SPECIFIC RESPONSE PROCEDURE",
+      "definition": "DOCUMENTED PROCEDURES FOR RESPONDING TO A PARTICULAR TYPE OF"
+    },
+    {
+      "term": "TABLETOP EXERCISE",
+      "fullname": "DISCUSSION-BASED INCIDENT TEST",
+      "definition": "TEAM DISCUSSES HOW IT WOULD RESPOND TO A PROVIDED INCIDENT"
+    },
+    {
+      "term": "INCIDENT SIMULATION",
+      "fullname": "ACTION-BASED INCIDENT TEST",
+      "definition": "TEAM ACTUALLY PERFORMS SOME OR ALL RESPONSE ACTIVITIES FOR A"
+    },
+    {
+      "term": "CHECKLIST REVIEW",
+      "fullname": "INCIDENT RESPONSE WALK-THROUGH",
+      "definition": "TEAM MEMBERS REVIEW THEIR CHECKLISTS TO VERIFY ROLES AND"
+    },
+    {
+      "term": "BCP",
+      "fullname": "BUSINESS CONTINUITY PLAN",
+      "definition": "PLAN TO KEEP CRITICAL BUSINESS OPERATIONS RUNNING"
+    },
+    {
+      "term": "DRP",
+      "fullname": "DISASTER RECOVERY PLAN",
+      "definition": "PLAN TO RESTORE TECHNOLOGY AFTER A DISRUPTION"
+    },
+    {
+      "term": "BIA",
+      "fullname": "BUSINESS IMPACT ANALYSIS",
+      "definition": "IDENTIFIES CRITICAL PROCESSES AND DISRUPTION IMPACTS"
+    },
+    {
+      "term": "MTD",
+      "fullname": "MAXIMUM TOLERABLE DOWNTIME",
+      "definition": "MAX DOWNTIME BEFORE BUSINESS IMPACT IS UNACCEPTABLE"
+    },
+    {
+      "term": "RTO",
+      "fullname": "RECOVERY TIME OBJECTIVE",
+      "definition": "MAX TIME A SYSTEM CAN BE DOWN BEFORE RECOVERY"
+    },
+    {
+      "term": "RPO",
+      "fullname": "RECOVERY POINT OBJECTIVE",
+      "definition": "MAX AMOUNT OF DATA LOSS THE BUSINESS CAN TOLERATE"
+    },
+    {
+      "term": "MTTR",
+      "fullname": "MEAN TIME TO REPAIR",
+      "definition": "AVERAGE TIME TO RESTORE A SYSTEM AFTER FAILURE"
+    },
+    {
+      "term": "SPOF",
+      "fullname": "SINGLE POINT OF FAILURE",
+      "definition": "ONE COMPONENT WHOSE FAILURE CAN STOP THE SYSTEM"
+    },
+    {
+      "term": "SYSTEM RESILIENCE",
+      "fullname": "ABILITY TO MAINTAIN ACCEPTABLE SERVICE",
+      "definition": "ABILITY OF A SYSTEM TO CONTINUE OR RETURN TO ACCEPTABLE SERVICE"
+    },
+    {
+      "term": "FAULT TOLERANCE",
+      "fullname": "CONTINUE OPERATING DESPITE FAILURE",
+      "definition": "DESIGN THAT USES REDUNDANCY OR OTHER MECHANISMS TO KEEP"
+    },
+    {
+      "term": "COLD SITE",
+      "fullname": "MINIMAL ALTERNATE RECOVERY FACILITY",
+      "definition": "LOW-COST RECOVERY SITE WITH LITTLE OR NO COMPUTING"
+    },
+    {
+      "term": "WARM SITE",
+      "fullname": "PARTIALLY EQUIPPED RECOVERY FACILITY",
+      "definition": "ALTERNATE SITE WITH DATA LINKS AND PRECONFIGURED EQUIPMENT BUT"
+    },
+    {
+      "term": "HOT SITE",
+      "fullname": "FULLY EQUIPPED RECOVERY FACILITY",
+      "definition": "HIGH-COST ALTERNATE SITE WITH READY SYSTEMS, COMMUNICATIONS,"
+    },
+    {
+      "term": "CRISIS MANAGEMENT",
+      "fullname": "COORDINATION DURING MAJOR DISRUPTION",
+      "definition": "ORGANIZED MANAGEMENT OF A CRISIS, INCLUDING RESPONSE,"
+    },
+    {
+      "term": "LESSONS LEARNED",
+      "fullname": "POST-EVENT IMPROVEMENT REVIEW",
+      "definition": "DOCUMENTED REVIEW OF WHAT HAPPENED, WHAT SHOULD CHANGE, AND"
+    }
+  ]
+}
