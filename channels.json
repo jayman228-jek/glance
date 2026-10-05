@@ -31,6 +31,7 @@
     {"title": "Happy's Place", "abbr": "HAP", "service": "Peacock", "seasons": ["fall"]},
     {"title": "St. Denis Medical", "abbr": "STD", "service": "Hulu", "seasons": ["fall"]},
     {"title": "Georgie & Mandy's First Marriage", "abbr": "GEO", "service": "Paramount+", "seasons": ["fall"]},
+    {"title": "Tracker", "abbr": "TRA", "service": "Paramount+", "seasons": ["fall"]},
     {"title": "Animal Control", "abbr": "ANI", "service": "Hulu", "seasons": ["fall"]},
     {"title": "House of Villains", "abbr": "HOV", "service": "Peacock", "seasons": ["fall"]},
     {"title": "The Simpsons", "abbr": "SIM", "service": "Disney+", "seasons": ["all"]},
