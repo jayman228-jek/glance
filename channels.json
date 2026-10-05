@@ -9,9 +9,9 @@
   "favorites": [
     {"title": "Big Brother", "seasons": ["summer", "fall"]},
     {"title": "Survivor", "seasons": ["fall", "spring"]},
-    {"title": "Amazing Race", "seasons": ["fall"]},
+    {"title": "The Amazing Race", "seasons": ["fall"]},
     {"title": "Fire Country", "seasons": ["fall"]},
-    {"title": "Big Bang Theory", "seasons": []},
+    {"title": "The Big Bang Theory", "seasons": []},
     {"title": "Sheriff Country", "seasons": ["fall"]},
     {"title": "Ghosts", "seasons": ["fall"]},
     {"title": "Georgie & Mandy's First Marriage", "seasons": ["fall"]},
@@ -37,7 +37,7 @@
     {"title": "Fear Factor: House of Villains", "seasons": ["fall"]},
     {"title": "House of Villains", "seasons": ["fall"]},
     {"title": "99 to Beat", "seasons": ["fall"]},
-    {"title": "Traitors: New Blood", "seasons": ["fall"]},
+    {"title": "The Traitors: New Blood", "seasons": ["fall"]},
     {"title": "St. Denis Medical", "seasons": ["fall"]},
     {"title": "Happy's Place", "seasons": ["fall"]}
   ]
