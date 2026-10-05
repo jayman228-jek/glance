@@ -8,7 +8,7 @@
   ],
   "favorites": [
     {"title": "Survivor", "abbr": "SUR", "seasons": ["fall", "spring"]},
-    {"title": "The Amazing Race", "abbr": "RAC", "seasons": ["fall"]},
+    {"title": "The Amazing Race", "abbr": "TAR", "seasons": ["fall"]},
     {"title": "The Traitors", "abbr": "TRA", "seasons": ["fall"]},
     {"title": "Fire Country", "abbr": "FIR", "seasons": ["fall"]},
     {"title": "Sheriff Country", "abbr": "SHR", "seasons": ["fall"]},
